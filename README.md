@@ -1,5 +1,5 @@
 # PRJ566-Team_4 - Chronicle: Your Ultimate Travel Companion 
-This is a repo for our PRJ566 Course (Fall 2023) to collaborate and work!
+This repo is for our PRJ566 Course (Fall 2023) to collaborate and work!
 
 ## Members 
 - #### Riccardo Moncada (e-mail: rmoncada@myseneca.ca)
