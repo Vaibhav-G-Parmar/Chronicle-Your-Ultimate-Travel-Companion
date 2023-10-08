@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T15:06:06.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="KeGrbOAlIrROMCRMjO91" version="22.0.4" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-08T15:06:27.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="89xVGiMIPLrd8bC0SuPQ" version="22.0.4" type="github" pages="16">
   <diagram name="Master-Screen-Skeleton-w-Dash" id="dcU1EmuCoUyJwAfTxBAl">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -549,7 +549,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QK885AehJnNSxT-_v8fO" name="ViewJournal">
-    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -626,25 +626,25 @@
           <mxGeometry x="200" y="400" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="590" width="30" height="30" as="geometry" />
+          <mxGeometry x="370" y="570" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="395" y="615" as="sourcePoint" />
-            <mxPoint x="395" y="595" as="targetPoint" />
+            <mxPoint x="385" y="595" as="sourcePoint" />
+            <mxPoint x="385" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="385" y="604.9" as="sourcePoint" />
-            <mxPoint x="405" y="604.9" as="targetPoint" />
+            <mxPoint x="375" y="584.9" as="sourcePoint" />
+            <mxPoint x="395" y="584.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-19" value="&lt;h1 style=&quot;font-size: 8px;&quot;&gt;(scroll for more)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="220" y="600" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-21" value="&lt;h1 style=&quot;font-size: 8px;&quot;&gt;(tap to create new post)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=0;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="320" y="600" width="70" height="40" as="geometry" />
+          <mxGeometry x="305" y="565" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="wgPLDW60BR1ffjtzr6mf-22" value="View Journal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
