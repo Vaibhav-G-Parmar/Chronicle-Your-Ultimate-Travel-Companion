@@ -303,31 +303,31 @@
                     <mxGeometry x="360" y="390" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="420" width="160" height="20" as="geometry"/>
+                    <mxGeometry x="360" y="450" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="oG7b9iFR-npRNqr2wtuO-19" value="Email" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="340" width="60" height="30" as="geometry"/>
+                <mxCell id="oG7b9iFR-npRNqr2wtuO-19" value="Email" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="360" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-20" value="Password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="390" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="360" y="420" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-21" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Sign Up&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="395" y="250" width="90" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-22" value="Continue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="510" width="120" height="20" as="geometry"/>
+                    <mxGeometry x="380" y="560" width="120" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="470" width="160" height="20" as="geometry"/>
+                    <mxGeometry x="360" y="500" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-24" value="Confirm Password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="440" width="110" height="30" as="geometry"/>
+                    <mxGeometry x="360" y="470" width="110" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="320" width="160" height="20" as="geometry"/>
+                    <mxGeometry x="360" y="330" width="160" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="oG7b9iFR-npRNqr2wtuO-26" value="Full Name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="360" y="290" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="360" y="300" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="_IPSFhu2Wuz2ez3uB2Qm-1" value="&lt;h1&gt;Chronicle&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
                     <mxGeometry x="375" y="190" width="130" height="40" as="geometry"/>
@@ -938,7 +938,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="j33VWJ07MyLTwqAQGu0q" name="ViewAThread">
-        <mxGraphModel dx="717" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1593" dy="1482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1151,11 +1151,11 @@
         </mxGraphModel>
     </diagram>
     <diagram id="kkbcXNtFxNVW8OZKppFc" name="AddJournalEntry2Timeline">
-        <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="717" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="jRXVDSKZo6qRRYNTxLnX-1" value="Add a Journal Entry (&quot;Highlight&quot;) to the Timeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="jRXVDSKZo6qRRYNTxLnX-1" value="Add a Journal Entry (&quot;Highlight&quot;) to the Timeline" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="160" height="80" as="geometry"/>
                 </mxCell>
             </root>
