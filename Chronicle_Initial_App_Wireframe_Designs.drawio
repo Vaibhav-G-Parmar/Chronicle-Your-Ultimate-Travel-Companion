@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T16:36:57.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8gG0Q2ScXQgFyiapQ1IN" version="22.0.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-10-14T16:38:51.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7Hl81fxOpmUigFauHp75" version="22.0.4" type="github" pages="15">
   <diagram name="Master-Screen-Skeleton-w-Dash" id="dcU1EmuCoUyJwAfTxBAl">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
         <mxCell id="Fy-J-8JRKZRBS-uzJxFP-5" value="Journal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="600" y="1720" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Fy-J-8JRKZRBS-uzJxFP-6" value="Home" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="Fy-J-8JRKZRBS-uzJxFP-6" value="Home" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;fillColor=#000000;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="540" y="1720" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fy-J-8JRKZRBS-uzJxFP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
