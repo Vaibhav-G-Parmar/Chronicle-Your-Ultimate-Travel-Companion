@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T00:49:04.244Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="z_kQDAUns_NUVpqwWomZ" version="22.0.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-26T00:49:34.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1PzHg7W2E01GbcgVhLKB" version="22.0.8" type="github" pages="16">
   <diagram name="WelcomeScreen" id="fqClmME_5narkkHpZXnJ">
     <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -365,33 +365,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="syvI4yne5v7e09DgSsGG" name="DeleteProfile">
-    <mxGraphModel dx="816" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="q-IElKBcz1dvnEJuJM00-1" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="240" width="280" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-2" value="ClickDeleteProfile" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="305" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="q-IElKBcz1dvnEJuJM00-3" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="460" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-4" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Application&lt;br&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="q-IElKBcz1dvnEJuJM00-4" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;UserManagementSystem&lt;br&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="620" y="460" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="q-IElKBcz1dvnEJuJM00-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="450" as="sourcePoint" />
-            <mxPoint x="365" y="400" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="q-IElKBcz1dvnEJuJM00-6" value="Delete Profile Info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q-IElKBcz1dvnEJuJM00-7" value="Delete Profile" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="570" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q-IElKBcz1dvnEJuJM00-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="q-IElKBcz1dvnEJuJM00-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -399,17 +390,8 @@
             <mxPoint x="450" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-9" value="Validates User Credentials" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="q-IElKBcz1dvnEJuJM00-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="489" y="576" as="sourcePoint" />
-            <mxPoint x="620" y="500" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-11" value="Cancel" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="660" width="120" height="60" as="geometry" />
+        <mxCell id="q-IElKBcz1dvnEJuJM00-11" value="CancelDeletion" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="365" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q-IElKBcz1dvnEJuJM00-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="q-IElKBcz1dvnEJuJM00-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -426,15 +408,6 @@
         <mxCell id="q-IElKBcz1dvnEJuJM00-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="q-IElKBcz1dvnEJuJM00-11" target="q-IElKBcz1dvnEJuJM00-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="610" as="sourcePoint" />
-            <mxPoint x="628" y="515" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-15" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Users&#39;&lt;br&gt;&amp;nbsp;Database&lt;br&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="620" y="560" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="q-IElKBcz1dvnEJuJM00-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q-IElKBcz1dvnEJuJM00-7" target="q-IElKBcz1dvnEJuJM00-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="495" y="610" as="sourcePoint" />
             <mxPoint x="628" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
