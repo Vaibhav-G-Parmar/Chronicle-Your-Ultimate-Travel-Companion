@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T16:00:44.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="YtTtGeoI-7wPcPYSjZ9v" version="22.0.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-26T16:11:13.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Gx0sEyrs3Ohk3f0B3WGh" version="22.0.8" type="github" pages="16">
   <diagram name="WelcomeScreen" id="fqClmME_5narkkHpZXnJ">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -185,14 +185,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Mc0_t2fE0AfyHUHpj7yM" name="ViewJournal">
-    <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yjZYg7hy8Y8F1wDOyGge-1" value="&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="240" width="280" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="yjZYg7hy8Y8F1wDOyGge-2" value="ViewAJournal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yjZYg7hy8Y8F1wDOyGge-2" value="ViewJournalEntry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yjZYg7hy8Y8F1wDOyGge-3" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
@@ -210,7 +210,7 @@
         <mxCell id="yjZYg7hy8Y8F1wDOyGge-6" value="Journal View" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yjZYg7hy8Y8F1wDOyGge-7" value="SearchForAJournal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="yjZYg7hy8Y8F1wDOyGge-7" value="SearchJournalEntrries" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yjZYg7hy8Y8F1wDOyGge-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="yjZYg7hy8Y8F1wDOyGge-7" edge="1">
@@ -225,13 +225,13 @@
             <mxPoint x="620" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ok7cAUvqmww5mjhx3ZxW-3" value="Create A Journal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ok7cAUvqmww5mjhx3ZxW-3" value="AddJournalEntry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ok7cAUvqmww5mjhx3ZxW-4" value="DeleteAJournal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ok7cAUvqmww5mjhx3ZxW-4" value="DeleteJournalEntry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ok7cAUvqmww5mjhx3ZxW-5" value="EditExisting Journal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ok7cAUvqmww5mjhx3ZxW-5" value="EditJournalEntry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ok7cAUvqmww5mjhx3ZxW-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ok7cAUvqmww5mjhx3ZxW-3" edge="1">
@@ -264,13 +264,13 @@
             <mxPoint x="620" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pl8p7kiePmORHmZwgS49-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yjZYg7hy8Y8F1wDOyGge-2">
+        <mxCell id="pl8p7kiePmORHmZwgS49-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yjZYg7hy8Y8F1wDOyGge-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="495" y="530" as="sourcePoint" />
             <mxPoint x="620" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pl8p7kiePmORHmZwgS49-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ok7cAUvqmww5mjhx3ZxW-3">
+        <mxCell id="pl8p7kiePmORHmZwgS49-3" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ok7cAUvqmww5mjhx3ZxW-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="495" y="370" as="sourcePoint" />
             <mxPoint x="620" y="500" as="targetPoint" />
