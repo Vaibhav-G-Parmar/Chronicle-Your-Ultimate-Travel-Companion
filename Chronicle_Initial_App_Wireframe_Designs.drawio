@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T02:50:16.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SarKrC_szY1izxat8QqE" version="22.0.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:23:34.078Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="TDjaZuK4HZ3MEWCSNkBU" version="22.0.8" type="github" pages="17">
   <diagram name="Master-Screen-Skeleton-w-Dash" id="dcU1EmuCoUyJwAfTxBAl">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -74,36 +74,36 @@
         <mxCell id="1" parent="0" />
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="150" as="sourcePoint" />
-            <mxPoint x="510" y="150.0000000000001" as="targetPoint" />
+            <mxPoint x="510" y="207" as="sourcePoint" />
+            <mxPoint x="510" y="207.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="110" width="220" height="520" as="geometry" />
+          <mxGeometry x="310" y="167" width="220" height="520" as="geometry" />
         </mxCell>
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-16" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Welcome&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="375" y="200" width="90" height="30" as="geometry" />
+          <mxGeometry x="375" y="257" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="250" width="140" height="150" as="geometry" />
+          <mxGeometry x="350" y="307" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-18" value="App welcome info (description, features)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="370" y="275.5" width="95" height="49" as="geometry" />
+          <mxGeometry x="370" y="332.5" width="95" height="49" as="geometry" />
         </mxCell>
         <mxCell id="aZlwIBD-xQcR-i_oTs8o-21" value="Sign in&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="530" width="120" height="30" as="geometry" />
+          <mxGeometry x="360" y="587" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bP2W93qJuFh64ah5zP1J-1" value="&lt;div style=&quot;&quot;&gt;Create New Account&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="360" y="470" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="H1tCeodHm-eRAi12YSJd-1" value="Welcome&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="387.5" y="80" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="527" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wwADgU2yI2RsccGkumHr-1" value="Welcome Screen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="357.5" y="10" width="120" height="60" as="geometry" />
+          <mxGeometry x="357.5" y="67" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vEj1nNIe5jEKRxuBdCEK-1" value="&lt;h1&gt;Chronicle&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
-          <mxGeometry x="355" y="150" width="130" height="40" as="geometry" />
+          <mxGeometry x="355" y="207" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUoPGvm1NQDXlt1xQdOH-1" value="WelcomeScreen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="137" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
