@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T02:50:48.583Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="jjyfnDoxwFIOEdtiJYlp" version="22.0.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:05:14.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Vvb4jfVuDdmboKNlBKlz" version="22.0.8" type="github" pages="16">
   <diagram name="WelcomeScreen" id="fqClmME_5narkkHpZXnJ">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -858,13 +858,13 @@
           <mxGeometry x="170" y="460" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4JUyZPiPqy6yvs1Ve6OI-4" value="&amp;lt;&amp;lt;actor&amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;JournalManagementSystem&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="620" y="440" width="160" height="70" as="geometry" />
+          <mxGeometry x="640" y="445" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-6" value="Chronicle App:&lt;br&gt;Add Journal Entry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-6" value="Chronicle App:&lt;br&gt;Add Journal Entry To Timeline" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="373" y="250" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-7" value="AddJournal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-7" value="AddJournalEntryToTimeline" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="348" y="450" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4JUyZPiPqy6yvs1Ve6OI-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4JUyZPiPqy6yvs1Ve6OI-3" target="4JUyZPiPqy6yvs1Ve6OI-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -872,25 +872,10 @@
             <mxPoint x="450" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-11" value="DiscardJournal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="570" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="4JUyZPiPqy6yvs1Ve6OI-3" target="4JUyZPiPqy6yvs1Ve6OI-11" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="530" as="sourcePoint" />
-            <mxPoint x="380" y="588" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4JUyZPiPqy6yvs1Ve6OI-7" target="4JUyZPiPqy6yvs1Ve6OI-4" edge="1">
+        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4JUyZPiPqy6yvs1Ve6OI-7" target="4JUyZPiPqy6yvs1Ve6OI-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="450" as="sourcePoint" />
             <mxPoint x="630" y="510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4JUyZPiPqy6yvs1Ve6OI-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.614;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4JUyZPiPqy6yvs1Ve6OI-11" target="4JUyZPiPqy6yvs1Ve6OI-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="610" as="sourcePoint" />
-            <mxPoint x="628" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
