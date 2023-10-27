@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:48:45.397Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AIEUn3JoGPtFeYyYX7Iv" version="22.0.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-10-27T15:39:11.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PVQBBY4J__R55XL4_iVu" version="22.0.8" type="github" pages="17">
   <diagram name="Master-Screen-Skeleton-w-Dash" id="dcU1EmuCoUyJwAfTxBAl">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="vEj1nNIe5jEKRxuBdCEK-1" value="&lt;h1&gt;Chronicle&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="355" y="207" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CUoPGvm1NQDXlt1xQdOH-1" value="WelcomeScreen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CUoPGvm1NQDXlt1xQdOH-1" value="WelcomeScreen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="137" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
@@ -242,6 +242,9 @@
         </mxCell>
         <mxCell id="K02MOyFynlxWPPoinPC_-5" value="Timeline" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="260" y="1720" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yx0poELg93-iv3wbgTmH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K02MOyFynlxWPPoinPC_-6" target="K02MOyFynlxWPPoinPC_-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K02MOyFynlxWPPoinPC_-6" value="Journal" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="200" y="1720" width="40" height="40" as="geometry" />
