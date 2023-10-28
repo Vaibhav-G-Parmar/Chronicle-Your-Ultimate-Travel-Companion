@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T16:50:32.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0EsTF2zNBMMSmCvOo2Yu" version="22.0.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-10-28T21:30:35.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0kFjyuD_WI_EjXI8klzi" version="22.0.8" type="github" pages="17">
   <diagram id="gzcH9Nc615UlMUTXLgN5" name="ApplicationSystemUseCaseDiagram">
-    <mxGraphModel dx="1674" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,21 +299,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="475" y="898" as="sourcePoint" />
             <mxPoint x="650" y="773" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BTMp16ZYINaca2lRZC19-62" value="DiscardJournalEntry" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="341" y="1144.5" width="135" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="BTMp16ZYINaca2lRZC19-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="BTMp16ZYINaca2lRZC19-81" target="BTMp16ZYINaca2lRZC19-62" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="50" y="670" as="sourcePoint" />
-            <mxPoint x="430" y="848.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BTMp16ZYINaca2lRZC19-64" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BTMp16ZYINaca2lRZC19-62" target="BTMp16ZYINaca2lRZC19-41" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="540" y="818.5" as="sourcePoint" />
-            <mxPoint x="650" y="923.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BTMp16ZYINaca2lRZC19-65" value="DeleteProfile" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
