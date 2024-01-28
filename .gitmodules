@@ -1,0 +1,6 @@
+[submodule "Chronicle_Web_App_Repo_SubModule"]
+	path = Chronicle_Web_App_Repo_SubModule
+	url = https://github.com/rmondev/chronicle-web-app.git
+[submodule "Chronicle_Users_API_Repo_SubModule"]
+	path = Chronicle_Users_API_Repo_SubModule
+	url = https://github.com/rmondev/CHRONICLE_USERS_API.git
