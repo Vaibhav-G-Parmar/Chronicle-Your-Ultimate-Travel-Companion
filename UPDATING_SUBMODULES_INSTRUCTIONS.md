@@ -1,45 +1,53 @@
-To update a submodule in a Git repository to its latest commit, you can use the following commands:
+If you have more than one submodule in your Git repository and you want to update all of them to their latest commits, you can follow these steps:
 
-1. Navigate to the root directory of your main repository.
-
-2. Use the following command to fetch the latest commits from the submodule's remote repository and update the submodule to the latest commit:
+1. Navigate to the root directory of your main repository:
 
    ```bash
-   git submodule update --recursive --remote
+   cd /path/to/main/repository
    ```
 
-   The `--recursive` option ensures that all submodules are updated, and `--remote` fetches the latest commits from the submodule's remote repository.
-
-   If you want to update only a specific submodule, you can use:
+2. Initialize and update all submodules:
 
    ```bash
-   git submodule update --remote path/to/submodule
+   git submodule update --init --recursive --remote
    ```
 
-3. After updating the submodule, navigate to the submodule's directory:
+   This command initializes any uninitialized submodules and updates all submodules to their latest commits.
+
+3. If you want to update only specific submodules, you can use:
 
    ```bash
-   cd path/to/submodule
+   git submodule update --recursive --remote path/to/submodule1 path/to/submodule2
    ```
 
-4. If the submodule has its own branches, you might want to check out the branch that you want to use:
+   Replace `path/to/submodule1`, `path/to/submodule2`, etc., with the paths to the specific submodules you want to update.
+
+4. If the submodules have their own branches, navigate to each submodule's directory:
 
    ```bash
+   cd path/to/submodule1
    git checkout master  # Replace 'master' with the desired branch name
+   cd ..
+
+   cd path/to/submodule2
+   git checkout master  # Replace 'master' with the desired branch name
+   cd ..
    ```
 
-5. Finally, go back to the main repository's root directory:
+   Repeat this for each submodule you want to update.
+
+5. Go back to the main repository's root directory:
 
    ```bash
    cd ..
    ```
 
-Now, your main repository should be updated to the latest commit of the submodule. Don't forget to commit the changes in the main repository to record the new submodule commit hash.
+6. Commit the changes in the main repository to record the new submodule commit hashes:
 
-```bash
-git add path/to/submodule
-git commit -m "Update submodule to latest commit"
-git push
-```
+   ```bash
+   git add .
+   git commit -m "Update submodules to latest commits"
+   git push
+   ```
 
-These commands assume that the submodule is configured properly in your Git repository and that it has a valid remote repository. If the submodule hasn't been initialized or updated before, you may need to run `git submodule init` before updating it.
+These steps ensure that all submodules in your repository are updated to their latest commits. Adjust the submodule paths and branch names as needed for your specific repository structure.
