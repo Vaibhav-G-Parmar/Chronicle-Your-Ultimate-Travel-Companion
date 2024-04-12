@@ -1,0 +1,185 @@
+Due Monday April 15th EOD:
+=========================
+
+Video Presentation and Walkthrough:
+----------------------------------
+- MP4 Format
+
+- Miniumum 20 Mins, Maximum 40 Minutes
+
+- Mixture of Slides and Video Demo
+
+- Slides will contain: 
+	
+	- Introduction (2 minutes: Logo, team, title plus each participant: name, role, passion) 
+	
+	- Problem Statement (1 Minute: Revisit PS from PRJ566)
+	
+	- Solution Vision:
+	
+	- Architectual Description and Stack Diagram:
+
+		1. Client-Side (Frontend):
+		   - Framework: Next.js with React
+		   - Styling: Tailwind CSS
+		   - Location Services: Google Place Autocomplete for React
+		   - Maps: Leaflet
+		   - Video Storage: Dropbox API
+
+		2. Server-Side (Backend):
+		   - Framework: Express.js
+		   - Database: MongoDB with Mongoose
+
+		3. Communication:
+		   - API Calls: Backend communicates with the frontend via RESTful API calls.
+		   - Feedback Emails: Email.js for sending feedback emails.
+
+		4. Deployment:
+		   - Backend Deployment: Cyclic
+		   - Frontend Deployment: Vercel
+	
+	- Summmary (1 Minute)
+
+
+
+- Video Demo of Select User Stories/Use Cases: 15 minutes to a maximum of 35 minutes:
+
+	We will Demo the app with two Users. User 2 will already be registered and have journal/timeline entries created in the application.
+
+	- User 1 will demonstrate the following:
+
+		AS USER 1:
+		---------
+
+		- Registration:
+			- Adding profile picture
+			- Change email after registration
+		- Login
+		- Adding Journal Entry:
+			- Create an entry with:
+				- Picture
+				- City Location
+				- Negative Rating
+				- Public 
+			- Create another entry with:
+				- Video 
+				- Establishment Location
+				- Positive Rating
+				- Private
+		- Show entries in Private journal and Public timeline
+		- Edit picture entry (change title and rating)
+		- Delete Public entry
+		- Interact w/ Entries:
+			- Like another Users entry
+		- Post a meetup thread in Message Forum
+
+	- User 2 will demonstrate the following:
+
+		AS USER 2:
+		---------
+
+		- View 'Likes' from User 1
+		- View Timeline entries from User One
+		- Browse Message Forum
+		- Reply to User 1 Thread
+		- Leave application feedback
+		- Log out of application
+
+
+Artifacts:
+=========
+
+1. Source Code: ( RICCARDO )
+	- Organize/Sync Source Code (Pull Latest submodules: Frontend and Backend API Repos into 'PRJ566-Team_4' Repo)
+	
+	- Add presentation files (PPT + MP4)
+	
+2. Technical Documents: ( RICCARDO )
+	
+		- PDF w/ Pictures and Instructions on how to use the Application
+		- End-to-end INCLUSIVE (User creation -> Using The Application -> Account Deletion)
+
+3. Codebase Installation Instructions for Developers ( ARTEM )
+
+	- README (MARKDOWN)
+	(i.e npm install) For backend and Frontend, Database connectivity
+	
+	- Deployment Instructions:
+		- Frontend on Vercel(Including .env variables)
+		- Backend on Cyclic (Including .env variables)
+		- MongoDB Atlas
+			- Connect with REST API via Mongoose
+
+4. Instructions on how to run the system on the public server including usernames and required passwords ( JUAN )
+
+5. Deviations from PRJ566 Proposal ( JUAN )
+	- Intended Features that were NOT included
+	- Unintended Features that were included
+
+6. Video Demonstration ( VAIBHAV )
+
+7. Slide Presentation w/ Narration ( ARTEM )
+	- Problem Statement ( VAIBHAV )
+	- Solution Vision ( VAIBHAV )
+	- Architenctual Description ( RICCARDO )
+	- Stack Diagram ( RICCARDO )
+	- Summary ( VAIBHAV )
+	
+	
+	
+
+	
+
+Assigned Work:
+-------------
+
+JUAN:
+	- Instructions on how to run the system on the public server including usernames and required passwords
+
+	- Deviations from PRJ566 Proposal:
+		- Intended Features that were NOT included
+		- Unintended Features that were included
+
+VAIBHAV:
+	- Project Summary ( Slide(s) Content)
+	- Solution Vision ( Slide(s) Content)
+	- Problem Statement ( Slide(s) Content)
+	- Video Demonstration ( .MP4 Video )
+
+RICCARDO:
+	- Technical Documents:
+		- PDF w/ Pictures and Instructions on how to use the Application
+		- End-to-end INCLUSIVE (User creation -> Using The Application -> Account Deletion)
+
+	- Source Code:
+		- Organize/Sync Source Code (Pull Latest submodules: Frontend and Backend API Repos into 'PRJ566-Team_4' Repo)
+		- Add presentation files (PPT + MP4)
+		
+	- Architenctual Description ( Slide(s) Content)
+	- Stack Diagram ( Slide(s) Content)
+	- Technical Documents:
+		
+			- PDF w/ Pictures and Instructions on how to use the Application
+			- End-to-end INCLUSIVE (User creation -> Using The Application -> Account Deletion)
+
+ARTEM:
+	- Out Together Slide Presentation w/ Narration
+	- Codebase Installation Instructions for Developers ( ARTEM )
+
+		- README (MARKDOWN)
+		(i.e npm install) For backend and Frontend, Database connectivity
+		
+		- Deployment Instructions:
+			- Frontend on Vercel(Including .env variables + API Keys)
+			- Backend on Cyclic (Including .env variables + API Keys)
+			- MongoDB Atlas
+				- Connect with REST API via Mongoose
+
+
+
+
+
+
+	
+
+
