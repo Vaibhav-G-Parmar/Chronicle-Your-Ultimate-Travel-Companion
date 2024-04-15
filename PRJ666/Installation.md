@@ -4,8 +4,8 @@
 
 Before you begin, ensure you have the following installed on your machine:
 
-- Node.js (recommend version X.X or higher)
-- npm (comes with Node.js)
+- Node.js
+- npm
 - Git
 
 ## Cloning the Repository
