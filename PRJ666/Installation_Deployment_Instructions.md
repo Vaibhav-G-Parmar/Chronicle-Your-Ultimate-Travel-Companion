@@ -64,6 +64,7 @@ git submodule update
      APP_SECRET=<your_dropbox_app_secret>
      ~~~
    - Obtain `REFRESH_TOKEN`, `APP_KEY`, and `APP_SECRET` by setting up your application storage at [Dropbox for Developers](https://www.dropbox.com/developers).
+   - Get `MONGO_URL` by creating a cluster at [Mongo Atlas](https://www.mongodb.com/atlas/database)
 
 ## Running the Application
 
