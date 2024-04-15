@@ -86,3 +86,35 @@ git submodule update
 
 - The front-end application will be available at [http://localhost:3000](http://localhost:3000).
 - The API will be accessible at [http://localhost:8080](http://localhost:8080).
+
+# Deployment Instructions
+
+## Frontend Deployment on Vercel
+
+1. Sign up or log in to your Vercel account.
+2. Click on the "New Project" button.
+3. Import your project from your GitHub repository.
+4. Before deploying, set up your environment variables by going to the "Settings" tab of your project:
+   - Click on the "Environment Variables" section.
+   - Add all the necessary variables such as `NEXT_PUBLIC_API_URL` and `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY`.
+5. After setting your environment variables, deploy your application by clicking the "Deploy" button.
+
+## Backend Deployment on Cyclic
+
+1. Sign up or log in to your Cyclic account.
+2. Click on "New App" and choose to import from GitHub.
+3. Select your repository containing the Express.js backend.
+4. Configure your environment variables in the Cyclic dashboard:
+   - Navigate to the "Environment" tab of your app settings.
+   - Add the environment variables such as `MONGO_URL`, `REFRESH_TOKEN`, `APP_KEY`, and `APP_SECRET`.
+5. Once you've set up the environment variables, deploy your application.
+
+## Database Setup with MongoDB Atlas
+
+1. Sign up or log in to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+2. Create a new cluster if you haven't already.
+3. Create a new database user with read and write privileges.
+4. Go to the "Network Access" section and add an IP address to allowlist from which your backend will connect.
+5. Navigate to the "Clusters" section, click on "Connect" and then choose "Connect your application".
+6. Copy the connection string provided.
+7. Replace the `<password>` with the database user's password you created and add this to your environment variables on Cyclic as `MONGO_URL`.
