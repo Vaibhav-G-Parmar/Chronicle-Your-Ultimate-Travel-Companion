@@ -4,7 +4,7 @@ Welcome to Chronicle – your go-to platform for documenting and sharing travel 
 
 [Live Demo](https://chronicle-web-app-eight.vercel.app/)
 
-Feel free to create an account to try out the application.
+Feel free to create an account to try out the application!
 
 ## Development Team 
 - #### Riccardo Moncada (e-mail: rmoncada@myseneca.ca)
