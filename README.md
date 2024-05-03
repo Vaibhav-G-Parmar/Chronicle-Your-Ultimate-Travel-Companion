@@ -1,22 +1,20 @@
-# PRJ666-Team_4 - Chronicle: Your Ultimate Travel Companion 
-This repo is for our PRJ666 Course (Winter 2024) to collaborate and work!
+# Chronicle: Your Ultimate Travel Companion 
 
-## Members 
+Welcome to Chronicle – your go-to platform for documenting and sharing travel experiences!
+
+[Live Demo](https://chronicle-web-app-eight.vercel.app/)
+
+Feel free to create an account to try out the application.
+
+## Development Team 
 - #### Riccardo Moncada (e-mail: rmoncada@myseneca.ca)
 - #### Vaibhav Parmar   (e-mail: vgparmar@myseneca.ca)
 - #### Artem Pankov     (e-mail: apankov@myseneca.ca)
 - #### Juan David Rodriguez Castelblanco (e-mail: jdrodriguez-castelbl@myseneca.ca)
 
-## Notes by the Professor
-- All artifacts (team & individual) are to be uploaded to MS teams and are due on Sunday @11:59 PM Except for week 14. Week 14 delverable is due on the presentation day. 
-- All artifacts after revision must be included in the SRS. 
-- Project schedule in MS Project.
-- Please note that if your team missed the due date you will get a Zero unless you have approval from your professor prior to the due date 
+# Installation Instructions
 
-# Installation InstructionsInstallation Instructions
-
-## PrerequisitesPrerequisites
-
+## Prerequisites
 Before you begin, ensure you have the following installed on your machine:
 
 ```
@@ -24,7 +22,7 @@ Node.js
 npm
 Git
 ```
-## Cloning the RepositoryCloning the Repository
+## Cloning the Repository
 
 Clone the repository and its submodules to your local machine using the following commands:
 
@@ -34,10 +32,34 @@ cd PRJ566-Team_
 git submodule init
 git submodule update
 ```
-## InstallationInstallation
+# Chronicle Frontend
 
-## Front-end (Next.js App)Front-end (Next.js App)
+## Core Technologies
 
+- **React**: Built with React for a dynamic and responsive user interface.
+- **Next.js**: Utilizing Next.js for server-side rendering and optimized routing.
+- **TypeScript**: Enhancing code readability and maintainability with TypeScript.
+- **Redux**: Managing state across components with Redux for a seamless user experience.
+- **HTML5**: Semantic markup for enhanced accessibility and SEO.
+- **Tailwind CSS**: Styling components with Tailwind CSS for a sleek and modern look.
+- **Google Places Autocomplete**: Integrating location search and autocomplete functionality for seamless user experience.
+- **Leaflet Maps**: Providing interactive and visually appealing maps for exploring destinations.
+- **Heroicons**: Utilizing Heroicons for high-quality SVG icons to enhance user interface elements.
+
+## Features and Functionalities
+
+- **Document Travel Experiences**: Seamlessly document your travel adventures with our intuitive interface.
+- **Connect with Like-Minded Travelers**: Connect and engage with fellow travelers to share insights and tips.
+- **Explore New Destinations**: Explore new destinations with interactive maps and discover hidden gems.
+- **Personalized Recommendations**: Rate and review destinations to receive personalized recommendations tailored to your preferences.
+- **Real-Time Feedback and Insights**: Share real-time feedback and insights with the travel community to enhance experiences for all.
+- **User-Friendly Interface**: Enjoy a user-friendly interface designed to provide a seamless browsing experience.
+- **Multimedia Content Support**: Upload and share multimedia content including photos and videos to enrich your travel stories.
+- **Responsive Design**: Access Travel Chronicle from any device with our responsive design that adapts to various screen sizes.
+
+## Installation
+
+## Front-end (Next.js App)
 ```
 1. Navigate to the front-end directory:
 ```
@@ -64,7 +86,28 @@ NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=<your_google_maps_api_key>
 ```
 To obtain a Google Maps API key, follow the steps outlined here.
 ```
-## Back-end (Express.js API)Back-end (Express.js API)
+## Back-end (Express.js API)
+
+## Core Technologies
+
+- **Node.js**: Built with Node.js for server-side logic and API development.
+- **Express.js**: Utilizing Express.js for building robust and scalable APIs with ease.
+- **MongoDB**: Storing and managing data using MongoDB, a flexible and scalable NoSQL database.
+- **Mongoose**: Interfacing with MongoDB using Mongoose for simplified data modeling and validation.
+- **Passport.js**: Implementing authentication middleware with Passport.js for secure user authentication.
+- **Bcrypt**: Encrypting passwords using Bcrypt for enhanced security.
+- **Dropbox API**: Integrating Dropbox API for storing and managing multimedia content such as photos and videos.
+- **Cyclic.sh**: Deploying backend servers on Cyclic.sh for automated testing and scaling.
+
+## Features and Functionalities
+
+- **User Authentication**: Implement secure user authentication with Passport.js and Bcrypt.
+- **Data Management**: Store and manage travel data efficiently using MongoDB and Mongoose.
+- **File Storage**: Integrate with Dropbox API for storing multimedia content associated with travel entries.
+- **API Endpoints**: Define and implement API endpoints to handle CRUD operations for travel entries, user authentication, and more.
+- **Scalable Architecture**: Deploy backend servers on Cyclic.sh for automated scaling and testing.
+- **Security**: Ensure data security and integrity with robust authentication and encryption mechanisms.
+
 
 ```
 1. Navigate to the back-end directory:
@@ -95,9 +138,9 @@ APP_SECRET=<your_dropbox_app_secret>
 Obtain REFRESH_TOKEN, APP_KEY, and APP_SECRET by setting up your application storage at Dropbox for Developers.
 Get MONGO_URL by creating a cluster at Mongo Atlas
 ```
-## Running the ApplicationRunning the Application
+## Running the Application
 
-## Running the APIRunning the API
+## Running the API
 
 
 ```
@@ -106,8 +149,7 @@ Get MONGO_URL by creating a cluster at Mongo Atlas
 ```
 node server.js
 ```
-## Running the Front-endRunning the Front-end
-
+## Running the Front-end
 ```
 1. Open a new terminal and navigate to the frontend directory.
 2. Start the Next.js development server:
@@ -115,16 +157,14 @@ node server.js
 ```
 npm run dev
 ```
-## Accessing the ApplicationAccessing the Application
-
+## Accessing the Application
 ```
 The front-end application will be available at http://localhost:3000.
 The API will be accessible at http://localhost:8080.
 ```
-# Deployment InstructionsDeployment Instructions
+# Deployment Instructions
 
-## Frontend Deployment on VercelFrontend Deployment on Vercel
-
+## Frontend Deployment on Vercel
 ```
 1. Sign up or log in to your Vercel account.
 2. Click on the "New Project" button.
@@ -134,7 +174,7 @@ Click on the "Environment Variables" section.
 Add all the necessary variables such as NEXT_PUBLIC_API_URL and NEXT_PUBLIC_GOOGLE_MAPS_API_KEY.
 5. After setting your environment variables, deploy your application by clicking the "Deploy" button.
 ```
-## Backend Deployment on CyclicBackend Deployment on Cyclic
+## Backend Deployment on Cyclic
 
 ```
 1. Sign up or log in to your Cyclic account.
@@ -145,7 +185,7 @@ Navigate to the "Environment" tab of your app settings.
 Add the environment variables such as MONGO_URL, REFRESH_TOKEN, APP_KEY, and APP_SECRET.
 5. Once you've set up the environment variables, deploy your application.
 ```
-## Database Setup with MongoDB AtlasDatabase Setup with MongoDB Atlas
+## Database Setup with MongoDB Atlas
 
 ```
 1. Sign up or log in to MongoDB Atlas.
