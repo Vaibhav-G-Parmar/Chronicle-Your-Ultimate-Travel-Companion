@@ -88,7 +88,8 @@ NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=<your_google_maps_api_key>
 ```
 To obtain a Google Maps API key, follow the steps outlined here.
 ```
-## Back-end (Express.js API)
+
+# Chronicle Backend
 
 ## Core Technologies
 
@@ -110,6 +111,7 @@ To obtain a Google Maps API key, follow the steps outlined here.
 - **Scalable Architecture**: Deploy backend servers on Cyclic.sh for automated scaling and testing.
 - **Security**: Ensure data security and integrity with robust authentication and encryption mechanisms.
 
+## Back-end (Express.js API)
 
 ```
 1. Navigate to the back-end directory:
